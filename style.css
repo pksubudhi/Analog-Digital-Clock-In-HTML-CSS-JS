@@ -1,0 +1,143 @@
+
+            body{
+                font-family: calibri;
+            }
+            .container{
+                width: 956px;
+                height: 600px;
+                border: 1px solid lightgray;
+                border-radius: 5px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                margin: auto;
+                align-content: center;
+            }
+            .pklock{
+                width: 22%;
+                height: 250px;
+                float: left;
+                /*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;*/
+                margin: 13px;
+            }
+            .analog {
+                display: block;
+                width: 80%;
+                height: 170px;
+                background-color: #F4F9FB;
+                margin: auto;
+                border-radius: 50%;
+            }
+            .clock {
+                width: 90%;
+                height: 90%;
+                position: relative;
+                border: 2px solid darkgray;
+                border-radius: 50%;
+                margin: auto;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+            .cross_vert {
+                position: absolute;
+                left: 48%;
+                height: 100%;
+                width: 4px;
+                background-color: #308BB2;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+            .cross_horz {
+                position: absolute;
+                top: 49%;
+                width: 100%;
+                height: 4px;
+                background-color: #308BB2;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+            .cross {
+                display: block;
+                position: absolute;
+                left: 49%;
+                width: 2px;
+                height: 100%;
+                background-color: dimgray;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+            .cross1 {
+                transform: rotate(30deg);
+            }
+            .cross2 {
+                transform: rotate(60deg);
+            }
+            .cross3 {
+                transform: rotate(120deg);
+            }
+            .cross4 {
+                transform: rotate(150deg);
+            }
+            .inner {
+                display: block;
+            }
+            .inner {
+                position: absolute;
+                left: 10%;
+                top: 10%;
+                width: 80%;
+                height: 80%;
+                border-radius: 50%;
+                background-color: #F4F9FB;
+            }
+            .dot {
+                position: absolute;
+                left: 44%;
+                top: 44%;
+                width: 12%;
+                height: 12%;
+                border-radius: 50%;
+                background-color: crimson;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+            .digital {
+                display: block;
+                width: 90%;
+                height: 80px;
+                background-color: white ;
+                margin: auto;
+                margin-top: 5px;
+                border-radius: 5px;
+                border: 1px solid #E1EDFA;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                padding-top: 3px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+            }
+            .hour_hand {
+                position: absolute;
+                height: 30%;
+                width: 3px;
+                background-color: black;
+                transform-origin:bottom;
+                transform: rotate(125deg);
+                border-radius: 2px;
+                left: 50%;
+                top: 20%;
+            }
+            .min_hand {
+                position: absolute;
+                height: 37%;
+                width: 2px;
+                background-color: black;
+                transform-origin: bottom;
+                transform: rotate(30deg);
+                left: 50%;
+                top: 13%;
+            }
+            .sec_hand {
+                position: absolute;
+                height: 49%;
+                width: 1px;
+                transform-origin: bottom;
+                transform: rotate(240deg);
+                left: 50%;
+                top: 1%;
+                background-color: red;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            }
+        
